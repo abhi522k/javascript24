@@ -14,3 +14,5 @@ symbol
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+is there any changes
