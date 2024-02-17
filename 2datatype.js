@@ -39,3 +39,24 @@ const myfunction = function(){
 console.log(typeof array_value)
 console.log(typeof myfunction)
 console.log(typeof obj_value)
+
+// stack (premitive) and heap (non premitive)
+
+let mynameis = "Abhishek"
+let myanothername = mynameis
+
+myanothername = "khushal"
+
+console.log(mynameis)
+console.log(myanothername)
+
+let myemailobj = {
+    email: "abhishek.com",
+}
+
+let myanotheremail = myemailobj
+
+myanotheremail.email = "khushal.com"
+
+console.log(myemailobj)
+console.log(myanotheremail)
