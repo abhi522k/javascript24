@@ -14,14 +14,30 @@ let stringintonumber = Number(str)
 
 let bool = ""
 
-console.log(typeof bool);
+// console.log(typeof bool);
 
 let booltoint = Boolean(bool)
 
-console.log(typeof booltoint);
-console.log(booltoint);
+// console.log(typeof booltoint);
+// console.log(booltoint);
 
 // bool >> int || true >> 1
 // int >> bool || 1 >> true
 // string >> bool || "abc" >> true
 // string >> bool || "" >> false
+
+console.log(1+1);
+console.log(1-1);
+
+console.log("1" == 1);
+console.log("01" > 1);
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+console.log(undefined > 0);
+console.log(undefined == 0);
+console.log(undefined >= 0);
+
+console.log("1" === 1);
