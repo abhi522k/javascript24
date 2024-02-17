@@ -1,13 +1,13 @@
-// alert(3+3) this will not work in node js, its inly support in browser
+// alert(3+3) this will not work in node js, its only support in browser
 
 /* 
 number
 bigint
 string
 boolean
-null
+null >>> standalone value 
 undefined
-symbol
+symbol  >>> unique values
 */
 
 //Object
@@ -15,4 +15,5 @@ symbol
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 
-is there any changes
+// New starting 17/02/2024 for javascript
+
