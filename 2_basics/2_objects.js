@@ -36,8 +36,8 @@ jsuser.greetingstwo = function(){
 
 
 //////////////////////////////////Part two
-
-const tinderuser = {}
+// const obj = new Object(){}  ////// singleton object
+const tinderuser = {}   ///// non singleton object
 
 tinderuser.id = 123
 tinderuser.name = 'abhi'
@@ -59,3 +59,32 @@ const regularuser = {
 // console.log(regularuser.fullname.username.name);
 // console.log(regularuser.fullname.username.name.firstname);
 
+const target = {1:'a', 2:'b'}
+const source = {4:'c',3:'d'}
+
+//const result = {target, source}
+//console.log(result);
+
+// const result = Object.assign({}, target, source)
+// console.log(result);
+
+// const result = {...target, ...source}
+// console.log(result);
+
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
+
+// console.log(tinderuser.hasOwnProperty('namme'));
+
+const course = {
+    name: 'js',
+    price: 999,
+    instructor: 'hitesh'
+}
+
+// course.instructor
+
+const {instructor: teacher} = course  /// Object destructuring
+
+console.log(teacher);
